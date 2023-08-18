@@ -6,7 +6,7 @@ The Sim Info Plugin for Flutter allows you to access and retrieve SIM card infor
 
 To utilize this plugin effectively, you'll need to add certain permissions to your `AndroidManifest.xml` file. These permissions grant your app the necessary access to retrieve SIM card information. Place the following lines in your `AndroidManifest.xml`:
 
-```
+```xml
 <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
 ```
@@ -19,7 +19,7 @@ To begin using the sim_info plugin in your Flutter project, follow these steps:
 1. Open your `pubspec.yaml` file.
 2. Add the following lines to your dependencies:
 
-```
+```dart
 dependencies:
   sim_info:
     git:
@@ -31,7 +31,7 @@ dependencies:
 ## Example
 Once the plugin is installed, you can use it to retrieve SIM card information. Here's an example of how to use it:
 
-```
+```dart
 import 'package:flutter/material.dart';
 import 'package:flutter_sim_info/flutter_sim_info.dart';
 import 'package:flutter_sim_info/model/sim_info_details.dart';
