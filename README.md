@@ -26,4 +26,4 @@ dependencies:
       url: https://github.com/vatsupatel0123/sim_info.git
       ref: main
 ```
-Run the command `flutter pub get` to install the plugin into your project.
+3. Run the command `flutter pub get` to install the plugin into your project.
