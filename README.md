@@ -28,7 +28,7 @@ dependencies:
 ```
 3. Run the command `flutter pub get` to install the plugin into your project.
 
-## Usage
+## Example
 Once the plugin is installed, you can use it to retrieve SIM card information. Here's an example of how to use it:
 
 ```
