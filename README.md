@@ -1,6 +1,11 @@
-The following XML permissions are required in your AndroidManifest.xml:
+# Sim Info Plugin
 
-`<uses-permission android:name="android.permission.READ_PHONE_STATE"/>`
-`<uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>`
+This Flutter plugin allows you to retrieve SIM card information on Android devices.
 
-To use the `sim_info` plugin in your Flutter project, follow these steps...
+## Android Permissions
+
+Make sure to add the following permissions to your AndroidManifest.xml file:
+
+```
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>xml
