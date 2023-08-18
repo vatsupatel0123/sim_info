@@ -12,3 +12,10 @@ To utilize this plugin effectively, you'll need to add certain permissions to yo
 ```
 
 The READ_PHONE_STATE permission provides access to basic information about the phone state, including the SIM card. The READ_PRIVILEGED_PHONE_STATE permission is for reading privileged information about the phone state, which can be useful for certain use cases.
+
+## Installation
+To begin using the sim_info plugin in your Flutter project, follow these steps:
+
+Open your pubspec.yaml file.
+
+Add the following lines to your dependencies:
