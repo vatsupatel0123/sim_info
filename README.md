@@ -1,4 +1,5 @@
-```**Android add this code in android manifest file**
+**Android add this code in android manifest file**
+```xml
 <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
 
