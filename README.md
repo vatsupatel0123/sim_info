@@ -20,8 +20,7 @@ To begin using the sim_info plugin in your Flutter project, follow these steps:
 2. Add the following lines to your dependencies:
 
 ```dart
-dependencies:
-  sim_info:
+sim_info:
     git:
       url: https://github.com/vatsupatel0123/sim_info.git
       ref: main
