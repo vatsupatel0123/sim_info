@@ -16,6 +16,14 @@ The READ_PHONE_STATE permission provides access to basic information about the p
 ## Installation
 To begin using the sim_info plugin in your Flutter project, follow these steps:
 
-Open your pubspec.yaml file.
+1. Open your `pubspec.yaml` file.
+2. Add the following lines to your dependencies:
 
-Add the following lines to your dependencies:
+```
+dependencies:
+  sim_info:
+    git:
+      url: https://github.com/vatsupatel0123/sim_info.git
+      ref: main
+```
+Run the command `flutter pub get` to install the plugin into your project.
